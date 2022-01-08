@@ -1,5 +1,6 @@
 package com.paulinasadowska.themingcodelab
 
+import android.content.res.Configuration
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
@@ -184,6 +185,7 @@ private fun PostItemPreview() {
 }
 
 @Preview("Featured Post")
+@Preview(uiMode = Configuration.UI_MODE_NIGHT_YES, name = "Featured Post Dark")
 @Composable
 private fun FeaturedPostPreview() {
     val post = remember { PostRepo.getFeaturedPost() }
