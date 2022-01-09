@@ -12,6 +12,7 @@ private val DarkColorPalette = darkColors(
         primaryVariant = Red700,
         onPrimary = Color.Black,
         secondary = Red300,
+        surface = Color.Black,
         onSecondary = Color.Black,
         error = Red200
 )
